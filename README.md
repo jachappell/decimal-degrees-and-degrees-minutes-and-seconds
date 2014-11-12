@@ -1,7 +1,7 @@
 decimal-degrees-and-degrees-minutes-and-seconds
 ===============================================
 
-C++ functions to convert between decimal degrees and degrees, minutes, and seconds
+<a href="http://www.storage-b.com/c/16">C++ functions to convert between decimal degrees and degrees, minutes, and seconds</a>
 
 Here's some C++ functions which handle the conversion between these two formats:
 
