@@ -4,8 +4,6 @@ decimal-degrees-and-degrees-minutes-and-seconds
 <a href="http://www.storage-b.com/c/16">C++ functions to convert between decimal degrees and degrees, minutes, and seconds</a>
 
 Here's some C++ functions which handle the conversion between these two formats:
-
-
 <pre>
 <tt>
 <font color="#2040a0">std</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">string</font> <font color="#2040a0">DMS::DegreesMinutesSeconds</font><font color="4444FF">(</font><strong>double</strong> <font color="#2040a0">ang</font>,
