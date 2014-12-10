@@ -6,14 +6,15 @@ decimal-degrees-and-degrees-minutes-and-seconds
 Here's some C++ functions which handle the conversion between these two formats:
 
 
-std::string DMS::DegreesMinutesSeconds(double ang,
-                                       unsigned int num_dec_places = 2)
+<pre>
+<tt>
+<font color="#2040a0">std</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">string</font> <font color="#2040a0">DMS::DegreesMinutesSeconds</font><font color="4444FF">(</font><strong>double</strong> <font color="#2040a0">ang</font>,
+                                       <strong>unsigned</strong> <strong>int</strong> <font color="#2040a0">num_dec_places</font> <font color="4444FF">=</font> <font color="#FF0000">2</font><font color="4444FF">)</font>
+<font color="#2040a0">std</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">string</font> <font color="#2040a0">DMS::DegreesMinutesSecondsLat</font><font color="4444FF">(</font><strong>double</strong> <font color="#2040a0">ang</font>,
+                                          <strong>unsigned</strong> <strong>int</strong> <font color="#2040a0">num_dec_places</font> <font color="4444FF">=</font> <font color="#FF0000">2</font><font color="4444FF">)</font>
+<font color="#2040a0">std</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">string</font> <font color="#2040a0">DMS::DegreesMinutesSecondsLon</font><font color="4444FF">(</font><strong>double</strong> <font color="#2040a0">ang</font>,
+                                          <strong>unsigned</strong> <strong>int</strong> <font color="#2040a0">num_dec_places</font> <font color="4444FF">=</font> <font color="#FF0000">2</font><font color="4444FF">)</font>
 
-std::string DMS::DegreesMinutesSecondsLat(double ang,
-                                          unsigned int num_dec_places = 2)
-
-std::string DMS::DegreesMinutesSecondsLon(double ang,
-                                          unsigned int num_dec_places = 2)
-
-double DMS::DecimalDegrees(const std::string& dms)
-
+<strong>double</strong> <font color="#2040a0">DMS::DecimalDegrees</font><font color="4444FF">(</font><strong>const</strong> <font color="#2040a0">std</font><font color="4444FF">:</font><font color="4444FF">:</font><font color="#2040a0">string</font><font color="4444FF">&amp;</font> <font color="#2040a0">dms</font><font color="4444FF">)</font>
+</tt>
+</pre>
