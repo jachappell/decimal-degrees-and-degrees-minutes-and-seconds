@@ -3,7 +3,7 @@
  *  dms.h -- C++ functions to convert between decimal degrees
  *           and degrees, minutes, and seconds
  *
- *  Copyright (C) 2005-2008 by James A. Chappell
+ *  Copyright (C) 2005-2016 by James A. Chappell
  *
  *  Permission is hereby granted, free of charge, to any person
  *  obtaining a copy of this software and associated documentation
@@ -36,6 +36,7 @@
  * History:
  * 23-aug-2005  created
  * 25-apr-2008  added latitude/longitude conversions
+ * 04-sep-2016  update degrees symbol
  * 
  */
 //=================================================================
@@ -48,8 +49,7 @@
 
 namespace DMS
 {
-  static const char DEG_SIM = 176 ;
-
+  static const char *DEG_SIM = "\u00B0";
 //
 //  Convert decimal degrees to degrees, minutes and seconds
 // 
